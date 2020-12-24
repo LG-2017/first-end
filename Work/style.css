@@ -1,0 +1,269 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container1 {
+    background-color: #222227;
+    padding: 20px;
+}
+.navbar1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media screen and (max-width:948px) {
+    .navbar1 {
+        display: none;
+    }
+}
+@media screen and (max-width:1017px) {
+    .navbar1 {
+        font-size: 0.9rem;
+    }
+}
+.list {
+    display: flex;
+    color: white;
+    list-style: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.list-one {
+    margin: 9px;
+}
+.btn1 {
+    width: 100%;
+    height: 100%;
+    padding: 22px;
+    text-transform: uppercase;
+    border: 2px solid;
+    border-radius: 30px;
+    background-color:#9e8a78;
+    color: #fff;
+    transition: .4s linear;
+    cursor: pointer;
+}
+.btn1:hover {
+    background-color: transparent;
+    transition: .4s linear;
+}
+.navigation {
+    display: none;
+}
+@media screen and (max-width:948px) {
+    .navigation {
+        display: contents;
+    }
+}
+
+.list1 {
+    display: none;
+}
+.list1:hover {
+    display: block;
+}
+.description {
+    display: none;
+    color: gray;
+    background: darkcyan;
+}
+.image {
+
+}
+.container2 {
+display: flex;
+}
+.content-left {
+    text-align: center;
+    margin: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.content-right {
+    display: block;
+}
+@media screen and (max-width:750px) {
+    .content-right {
+        display: none;
+    }
+}
+.container3 {
+    background-color: #fcf9f7;
+}
+.header-text {
+    text-align: center;
+    padding: 90px;
+}
+.card-header1 {
+    display: flex;
+}
+@media screen and (max-width:750px) {
+    .card-header1 {
+        display: block;
+    }
+}
+.card1 {
+    text-align: center;
+    margin: 20px;
+}
+.container4 {
+    position: relative;
+    background-image: url(http://wp.dynamiclayers.net/sentobar/wp-content/uploads/sites/6/2018/09/testimonial.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding-top: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+}
+@media screen and (max-width:765px) {
+    .container4 {
+        display: block;
+    }
+}
+.text1 {
+    color: white;
+}
+.form1 {
+    background-color: white;
+    padding: 30px;
+    width: 100%;
+}
+.form-text {
+    margin-bottom: 60px;
+}
+.input-header {
+    display: block;
+}
+.input-card {
+    font-size: larger;
+    margin: 9px;
+    padding: 13px;
+}
+.btn2 {
+    padding: 16px;
+    background-color: #9e8a78;
+    color: white;
+    cursor: pointer;
+}
+.container5 {
+    text-align: center;
+    margin-bottom: 85px;
+    margin-top: 60px;
+    font-family: auto;
+}
+.card-header2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.card2 {
+    transition: .2s ease-in-out;
+    overflow: hidden;
+
+}
+.card2:hover {
+    filter: grayscale(1);
+    transition: .2s ease-in-out;
+}
+.container6 {
+    text-align: center;
+    background-image: url(http://wp.dynamiclayers.net/sentobar/wp-content/uploads/sites/6/2018/09/testimonial.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding-top: 200px;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 200px;
+}
+.container7 {
+    padding-top: 70px;
+}
+.text-header {
+    text-align: center;
+    padding-bottom: 90px;
+}
+.card-header3 {
+    display: flex;
+    text-align: center;
+}
+@media screen and (max-width:750px) {
+    .card-header3 {
+        display: block;
+    }
+}
+.card3 {
+    background-color: #fcf9f7;
+    margin: 20px;
+    padding: 40px;
+}
+.btn3 {
+    cursor: pointer;
+    background-color: #9e8a78;
+    color: white;
+    padding: 10px;
+}
+.container8 {
+    background-image: url(https://wp.dynamiclayers.net/sentobar/wp-content/uploads/sites/6/2018/09/slide-2-1600x680.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    height: 70%;
+    padding-top: 200px;
+    font-size: 25px;
+    
+}
+.container9 {
+    text-align: center;
+    margin-top: 90px;
+}
+.card-header4 {
+    display: flex;
+    margin-top: 100px;
+}
+@media screen and (max-width:750px) {
+    .card-header4 {
+        display: block;
+    }
+}
+.card4 {
+    background-color: #fcf9f7;
+    margin: 20px;
+    padding: 10px;
+}
+.container-end {
+    background-color: #222227;
+    padding: 20px;
+}
+.header-end {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    color: white;
+}
+.card-end {
+    margin: 15px;
+}
+.input-end {
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+.btn5 {
+    background-color: #9e8a78;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
